@@ -6,3 +6,4 @@ To process on a free Tesla K80 GPU, switch the notebook settings to GPU and modi
 ```
 !mlagents-learn ml-agents/config/ppo/Walker.yaml --run-id=$run_id --env=$env_name --no-graphics --torch-device=cuda:0
 ```
+Current Goals:Building an environment for reinforcement learning using TPUs
